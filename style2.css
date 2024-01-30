@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sale{
+    background: #5AE519;
+    width: 1440;
+    height: 48;
+    position: fixed;
+    z-index: 5;
+    margin-top: -48px;
+}
+.sale p{
+    text-align: center;
+    margin-top: 12px;
+}
+.navbar{
+    background-color: #3FB00A;
+    width: 1440px;
+    height: 100px;
+    margin-top: 48px;
+}
+.trademark{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.search-container input[type=text] {
+    border: none;
+    font-size: 16px;
+    display: flexbox;
+    padding: 20px;
+    margin-top: 11px;
+}
+.search-container{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    display: flex;
+}
+.navbar .search-container button{
+    background-color: #fff;
+    border: none;
+    margin-right: 16px;
+    padding: 10px;
+    display: flexbox;
+    margin-top: 10px;
+}
+.search-container svg{
+    margin: auto 10px;
+}
+
+.slider{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    display: inline;
+    float: right;
+    margin-top: -300px;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 100%;
+    max-width: max-content;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #000000;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    margin-left: 90px;
+}
+  
+.menu  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+
+.menu  li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.boxPromo{
+    display: inline-block;
+    width: 1110px;
+    height: 500px;
+    background-color: #1E5604;
+    color: aliceblue;
+}
+.boxPromo h1{
+    display: flex;
+    width: 230px;
+    height: 20px;
+    font-size: 32;
+    font: weight 200px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.boxPromo h2{
+    display: flex;
+    font-size: 48;
+    margin-top: 57px;
+    margin-left: 70px;
+    width: 285px;
+    height: 45px;
+}
+.boxPromo h3{
+    display: flex;
+    font-size: 48;
+    margin-top: 45pxpx;
+    margin-left: 70px;
+    width: 285px;
+    height: 40px;
+}
+.boxPromo h4{
+    display: flexbox;
+    width: 120px;
+    height: 24px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+footer{
+    width: 1440;
+    height: 440;
+    background-color: #5AE519;
+    margin-top: 20px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin-left: 90px;
+}
+  
+footer  li a {
+    display: block;
+    color: #000;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+footer .block2{
+    display: flex;
+    margin-top: -200px;
+}
+footer .block3{
+    display: flex;
+    margin-top: -230px;
+    margin-left: 600px;
+}
+footer .block4{
+    display: flex;
+    margin-top: -340px;
+    margin-left: 900px;
+}
